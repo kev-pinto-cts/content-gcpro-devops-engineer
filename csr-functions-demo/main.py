@@ -10,6 +10,6 @@ def greetings_http(request):
         name = request_args["name"]
     else:
         name = "my friend"
-    return '<h1 style="margin:20px auto;width:800px;">Welcome to the GCP DevOps course, {}!</h1><h2>Via Source Control Repo</h2>'.format(
+    return '<h1 style="margin:20px auto;width:800px;">Welcome to the GCP DevOps course, {}!</h1><h2>Via Source Control Repo One Way Sync</h2>'.format(
         escape(name)
     )
